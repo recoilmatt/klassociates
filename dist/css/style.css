@@ -136,8 +136,14 @@ img {
 
 .card--icon {
       padding: 24px;
+
   }
 
+ .card--icon:hover {
+    transition: transform .9s ease;
+    transform: scale(1.1);
+ }
+ 
 .card--desc {
     padding: 24px;
 }
